@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="week9.RegisterController" spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+    <TextField fx:id="nickNameField" promptText="Masukkan nama panggilan"/>
+    <TextField fx:id="fullNameField" promptText="Masukkan nama lengkap"/>
+    <ImageView fx:id="profileImageView" fitWidth="100" fitHeight="100"/>
+    <Button text="Unggah Gambar" onAction="#handleUpload"/>
+    <Button text="Register" onAction="#handleRegister"/>
+</VBox>
